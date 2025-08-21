@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git branch: 'main', url: 'https://github.com/maheshlokku/food.git'
+                git branch: 'master', url: 'https://github.com/maheshlokku/food.git'
             }
         }
         stage('Build') {
